@@ -54,9 +54,9 @@ public class OrdersAdapter extends RecyclerView.Adapter<OrdersAdapter.ViewHolder
          public ViewHolder(@NonNull View itemView) {
              super(itemView);
              ordersImage = itemView.findViewById(R.id.ordersimage);
-             soldItemName = itemView.findViewById(R.id.ordersitemName );
-             orderNumber = itemView.findViewById(R.id.orderNumber);
-             price = itemView.findViewById(R.id.orderPrice);
-         }
+             soldItemName = itemView.findViewById(R.id.orderitemName);
+         orderNumber = itemView.findViewById(R.id.orderNumber);
+         price = itemView.findViewById(R.id.orderPrice);
      }
+ }
 }

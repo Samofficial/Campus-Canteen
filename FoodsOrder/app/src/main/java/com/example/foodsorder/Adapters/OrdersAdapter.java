@@ -53,10 +53,10 @@ public class OrdersAdapter extends RecyclerView.Adapter<OrdersAdapter.ViewHolder
          TextView  soldItemName,orderNumber,price;
          public ViewHolder(@NonNull View itemView) {
              super(itemView);
-             ordersImage = itemView.findViewById(R.id.ordersimage);
-             soldItemName = itemView.findViewById(R.id.orderitemName);
-         orderNumber = itemView.findViewById(R.id.orderNumber);
-         price = itemView.findViewById(R.id.orderPrice);
+             ordersImage = itemView.findViewById(R.id.orderedItemImage);
+             soldItemName = itemView.findViewById(R.id.orderedItemName);
+         orderNumber = itemView.findViewById(R.id.orderedItemNumber);
+         price = itemView.findViewById(R.id.orderedItemPrice);
      }
  }
 }

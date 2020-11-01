@@ -38,7 +38,7 @@
                 android:fontFamily="cursive"
                 android:gravity="center"
                 android:padding="8dp"
-                android:text="Cafe House"
+                android:text="Campus Canteen"
                 android:textColor="#FAF8F8"
                 android:textSize="60sp"
                 android:textStyle="bold" />

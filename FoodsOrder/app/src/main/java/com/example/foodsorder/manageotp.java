@@ -39,6 +39,7 @@ public class manageotp extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_manageotp);
+        getSupportActionBar().hide();
         phonenumber = getIntent().getStringExtra("mobile").toString();
         t2 = (EditText) findViewById(R.id.t2);
         b2 = (Button) findViewById(R.id.b2);

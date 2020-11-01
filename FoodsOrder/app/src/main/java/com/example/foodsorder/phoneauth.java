@@ -19,6 +19,7 @@ public class phoneauth extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_phoneauth);
+        getSupportActionBar().hide();
 
         t1=(EditText)findViewById(R.id.t1);
         ccp=(CountryCodePicker)findViewById(R.id.ccp);

@@ -1,5 +1,6 @@
 package com.example.foodsorder;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.LinearLayout;
@@ -22,6 +23,7 @@ public class ordersActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_orders);
+        getSupportActionBar().setTitle("Order details");
         recyclerView = findViewById(R.id.ordersRecyclerView);
         //binding = ActivityOrdersBinding.inflate(getLayoutInflater());
        // setContentView(binding.getRoot());
@@ -42,5 +44,7 @@ public class ordersActivity extends AppCompatActivity {
 
         //LinearLayoutManager layoutManager = new LinearLayoutManager(this);
         //binding.ordersRecyclerView.setLayoutManager(layoutManager);
+
+
     }
 }
